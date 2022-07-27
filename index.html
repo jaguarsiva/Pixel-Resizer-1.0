@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Image sprite pixel resizer">
+    <title> Pixel Resizer </title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <h1>Pixel Resizer</h1>
+
+    <form>
+        
+        <textarea id="input-text" placeholder="Input text..." required></textarea>
+        <input type="number" id="factor" placeholder="Multiplying factor" step="any"  autocomplete="off" required>
+        <input type="submit" value="Convert" id="submit-btn">
+
+        <textarea id="output-text" placeholder="Output text..."></textarea>
+    </form>
+    
+    <footer>
+        <p> &copy; Developed by <a href="https://sivachandran.netlify.app/">Siva Chandran V.</a>  </p>
+    </footer>
+
+
+    <div id="alert-box" class="d-none">
+        <p>Text Copied to Clipboard!. </p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
